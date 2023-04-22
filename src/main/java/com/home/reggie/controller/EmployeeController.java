@@ -71,6 +71,16 @@ public class EmployeeController {
         request.getSession().removeAttribute("employee");
         return R.success("退出成功");
     }
+
+    /**
+     * 新增员工
+     * @param employee
+     * @return
+     */
+    public R<String> save(@RequestBody Employee employee) {
+        log.info("新增员工，员工信息：{}", employee.toString());
+        return null;
+    }
 }
 
 
