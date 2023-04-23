@@ -109,10 +109,10 @@ public class EmployeeController {
         log.info("page = {}, pageSize = {}, name = {}", page, pageSize, name);
 
         // 构造分页构造器
-        Page pageInfo = new Page(page, pageSize);
+        Page<Employee> pageInfo = new Page<>(page, pageSize);
 
         // 条件构造器（name）
-        LambdaQueryWrapper<Employee> queryWrapper = new LambdaQueryWrapper();
+        LambdaQueryWrapper<Employee> queryWrapper = new LambdaQueryWrapper<>();
         queryWrapper.like(StringUtils.isNotEmpty(name), Employee::getName, name);
         // 排序条件
         queryWrapper.orderByDesc(Employee::getUpdateTime);

@@ -34,4 +34,15 @@ public class GlobalExceptionHandler {
 
         return R.error("未知错误");
     }
+
+    /**
+     * 捕获 无法删除分类的自定义异常
+     * @return
+     */
+    @ExceptionHandler(CustomException.class)
+    public R<String> exceptionHandler(CustomException ex) {
+        log.error(ex.getMessage());
+
+        return R.error(ex.getMessage());
+    }
 }
