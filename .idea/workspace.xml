@@ -4,13 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3d740982-50c9-4018-9cd1-c911878647b4" name="Changes" comment="员工管理页面开发完成。">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/home/reggie/common/BaseContext.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/home/reggie/common/MyMetaObjecthandler.java" afterDir="false" />
+    <list default="true" id="3d740982-50c9-4018-9cd1-c911878647b4" name="Changes" comment="公共字段自动填充，开发完成，并创建了 Category 实体类">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/home/reggie/controller/CategoryController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/home/reggie/mapper/CategoryMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/home/reggie/service/CategoryService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/home/reggie/service/impl/CategoryServiceImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/home/reggie/controller/EmployeeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/home/reggie/controller/EmployeeController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/home/reggie/entity/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/home/reggie/entity/Employee.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/home/reggie/filter/LoginCheckFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/home/reggie/filter/LoginCheckFilter.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,7 +53,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "main",
-    "last_opened_file_path": "/Users/yuchen/IdeaProjects/Reggie/src/main/java/com/home/reggie/common",
+    "last_opened_file_path": "/Users/yuchen/IdeaProjects/Reggie/src/main/java/com/home/reggie/entity",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -68,8 +67,8 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/main/java/com/home/reggie/common" />
       <recent name="$PROJECT_DIR$/src/main/java/com/home/reggie/entity" />
+      <recent name="$PROJECT_DIR$/src/main/java/com/home/reggie/common" />
       <recent name="$PROJECT_DIR$/src/main/resources" />
       <recent name="$PROJECT_DIR$" />
     </key>
@@ -102,7 +101,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1682164315227</updated>
-      <workItem from="1682164316912" duration="27082000" />
+      <workItem from="1682164316912" duration="28482000" />
     </task>
     <task id="LOCAL-00001" summary="项目配置、启动完成。">
       <created>1682166261956</created>
@@ -139,7 +138,14 @@
       <option name="project" value="LOCAL" />
       <updated>1682221209354</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="公共字段自动填充，开发完成，并创建了 Category 实体类">
+      <created>1682229859969</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1682229859969</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -151,7 +157,8 @@
     <MESSAGE value="完善登录功能已完成。" />
     <MESSAGE value="新增员工功能完成，并处理了新增员工信息 username重复的异常。" />
     <MESSAGE value="员工管理页面开发完成。" />
-    <option name="LAST_COMMIT_MESSAGE" value="员工管理页面开发完成。" />
+    <MESSAGE value="公共字段自动填充，开发完成，并创建了 Category 实体类" />
+    <option name="LAST_COMMIT_MESSAGE" value="公共字段自动填充，开发完成，并创建了 Category 实体类" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
