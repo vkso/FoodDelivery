@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3d740982-50c9-4018-9cd1-c911878647b4" name="Changes" comment="登录 + 退出功能实现完成。">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/home/reggie/filter/LoginCheckFilter.java" afterDir="false" />
+    <list default="true" id="3d740982-50c9-4018-9cd1-c911878647b4" name="Changes" comment="完善登录功能已完成。">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/home/reggie/common/GlobalExceptionHandler.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/home/reggie/ReggieApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/home/reggie/ReggieApplication.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/home/reggie/controller/EmployeeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/home/reggie/controller/EmployeeController.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -100,7 +99,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1682164315227</updated>
-      <workItem from="1682164316912" duration="13230000" />
+      <workItem from="1682164316912" duration="16393000" />
     </task>
     <task id="LOCAL-00001" summary="项目配置、启动完成。">
       <created>1682166261956</created>
@@ -116,7 +115,14 @@
       <option name="project" value="LOCAL" />
       <updated>1682170760115</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="完善登录功能已完成。">
+      <created>1682179294205</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1682179294205</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -125,17 +131,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="项目配置、启动完成。" />
     <MESSAGE value="登录 + 退出功能实现完成。" />
-    <option name="LAST_COMMIT_MESSAGE" value="登录 + 退出功能实现完成。" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/home/reggie/controller/EmployeeController.java</url>
-          <line>33</line>
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <MESSAGE value="完善登录功能已完成。" />
+    <option name="LAST_COMMIT_MESSAGE" value="完善登录功能已完成。" />
   </component>
 </project>
