@@ -4,9 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3d740982-50c9-4018-9cd1-c911878647b4" name="Changes" comment="完善登录功能已完成。">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/home/reggie/common/GlobalExceptionHandler.java" afterDir="false" />
+    <list default="true" id="3d740982-50c9-4018-9cd1-c911878647b4" name="Changes" comment="新增员工功能完成，并处理了新增员工信息 username重复的异常。">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/home/reggie/common/JacksonObjectMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/home/reggie/config/MybatisPlusConfig.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/home/reggie/config/WebMvcConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/home/reggie/config/WebMvcConfig.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/home/reggie/controller/EmployeeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/home/reggie/controller/EmployeeController.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -99,7 +101,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1682164315227</updated>
-      <workItem from="1682164316912" duration="16393000" />
+      <workItem from="1682164316912" duration="21499000" />
     </task>
     <task id="LOCAL-00001" summary="项目配置、启动完成。">
       <created>1682166261956</created>
@@ -122,7 +124,14 @@
       <option name="project" value="LOCAL" />
       <updated>1682179294205</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="新增员工功能完成，并处理了新增员工信息 username重复的异常。">
+      <created>1682214478624</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1682214478624</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -132,6 +141,23 @@
     <MESSAGE value="项目配置、启动完成。" />
     <MESSAGE value="登录 + 退出功能实现完成。" />
     <MESSAGE value="完善登录功能已完成。" />
-    <option name="LAST_COMMIT_MESSAGE" value="完善登录功能已完成。" />
+    <MESSAGE value="新增员工功能完成，并处理了新增员工信息 username重复的异常。" />
+    <option name="LAST_COMMIT_MESSAGE" value="新增员工功能完成，并处理了新增员工信息 username重复的异常。" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/home/reggie/controller/EmployeeController.java</url>
+          <line>132</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/home/reggie/controller/EmployeeController.java</url>
+          <line>130</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
